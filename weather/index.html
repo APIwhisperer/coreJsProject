@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="card">
+        <div class="searchBox">
+            <input type="text" id="search" placeholder="enter city name" spellcheck="false">
+           <button id="searchButton"><img src="./images/search.png" alt="" /></button>
+        </div>
+        <div class="tempDetail">
+            <img class= "Weather" src = "./images/clear.png" alt="">
+            <h1 class="temp">22°C</h1>
+            <h3 class="city">bengaluru</h3>
+        </div>
+        <div class="weatherDetails">
+            <div class="humidity">
+                <img class="detailImage" src="./images/humidity.png" alt="humidity">
+                <div class="details">
+                    <p class="humidityPercentage">20%</p>
+                    <p class="dataName">Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <img class="detailImage"  src="./images/wind.png" alt="windSpeed">
+                <div class="details">
+                    <p class="windSpeed">15 Km/h </p>
+                    <p class="dataName">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
